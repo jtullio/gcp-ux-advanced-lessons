@@ -1,0 +1,21 @@
+module: default
+runtime: custom
+vm: true
+api_version: 1
+
+manual_scaling:
+  instances: 1
+
+handlers:
+
+- url: /api/.*
+  script: server.js
+
+- url: /(.*\.(html|css|js))
+  static_files: static/\1
+  upload: static/(.*\.(html|css|js))
+
+- url: /
+  static_files: static/index.html
+  upload: static/index.html
+

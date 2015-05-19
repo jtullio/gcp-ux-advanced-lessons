@@ -1,0 +1,11 @@
+{
+  "name": "lesson3-cli",
+  "description": "CLI for Decision Matrix",
+  "version": "0.0.1",
+  "bin": {
+    "lesson3-cli": "cli.js"
+  },
+  "dependencies": {
+    "inquirer": "^0.8.0"
+  }
+}

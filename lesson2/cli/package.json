@@ -1,0 +1,13 @@
+{
+  "name": "lesson2-cli",
+  "description": "CLI for Decision Matrix",
+  "version": "0.0.1",
+  "bin": {
+    "lesson2-cli": "cli.js"
+  },
+  "dependencies": {
+    "decisionmatrix": "0.1.0",
+    "gcloud": "^0.8.1",
+    "inquirer": "^0.8.0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "decisionmatrix",
+  "description": "Decision Matrix using node.js and App Engine",
+  "version": "0.1.0",
+  "dependencies": {
+    "appengine": "git://github.com/GoogleCloudPlatform/appengine-nodejs.git",
+    "body-parser": "^1.4.3",
+    "express": "4.x",
+    "gcloud": "^0.8.1"
+  }
+}
